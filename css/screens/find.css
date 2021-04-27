@@ -1,0 +1,15 @@
+.find-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icon_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.find-icon_section i {
+  margin-bottom: 20px;
+}
