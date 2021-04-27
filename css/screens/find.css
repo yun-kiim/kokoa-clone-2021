@@ -11,5 +11,12 @@
 }
 
 .find-icon_section i {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+}
+
+.find-icon_section span {
+  height: 30px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
 }

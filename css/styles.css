@@ -22,3 +22,10 @@ body {
 .main-screen {
   padding: 0 var(--horizontal-space);
 }
+
+.hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 24px;
+  background-color: #ececec;
+}
