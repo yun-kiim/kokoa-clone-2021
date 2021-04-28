@@ -20,3 +20,107 @@
   font-size: 18px;
   align-items: center;
 }
+
+.screen-find__friend {
+  padding-top: 20px;
+}
+
+.screen-find__friend h3 {
+  color: #929292;
+  font-size: 18px;
+}
+
+.screen-find__friend_content {
+  height: 250px;
+  width: 100%;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.screen-find__openchat {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.openchat__tilte,
+.openchat__sub {
+  color: var(--gray);
+}
+.openchat__sub i {
+  color: var(--gray-opacity);
+  margin-left: 5px;
+}
+
+.openchat_content_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.openchat_content_text h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.openchat_content_text p {
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+.openchat_member {
+  display: flex;
+  align-items: center;
+  color: var(--gray);
+}
+
+.openchat_member img {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  margin-right: 8px;
+}
+.member_name {
+  padding-right: 8px;
+  border-right: 1px solid;
+}
+.active {
+  margin-left: 8px;
+  color: #ff84cf;
+}
+
+.openchat_content_img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+}
+
+.openchat_content_img img {
+  max-width: 150%;
+}
+
+.like {
+  width: 50px;
+  height: 20px;
+  padding: 4px 16px;
+  background-color: rgba(70, 70, 70, 0.5);
+  color: #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  bottom: 16px;
+  font-size: 14px;
+}
+.like i {
+  margin-right: 8px;
+}

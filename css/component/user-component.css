@@ -48,9 +48,17 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__subtitle i {
+  color: tomato;
+}
+
 .user-component__time {
   margin-bottom: 10px;
   display: block;
   display: flex;
   flex-direction: column;
+}
+
+.black {
+  color: #333;
 }
