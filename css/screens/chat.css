@@ -1,0 +1,140 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen #status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  background-color: #abc1d1;
+  z-index: 1;
+}
+#chat-screen #status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  top: 10px;
+}
+
+.main-chat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-timestamp {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #92a3b1;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.chat-message {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.chat-user_img {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-user {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.chat-incoming {
+  display: flex;
+  align-items: flex-end;
+}
+
+.incoming_content {
+  padding: 8px 12px;
+  background-color: #fff;
+  border-radius: 14px;
+  border-top-left-radius: 0;
+  margin-right: 6px;
+}
+
+.incoming_time,
+.chat-user {
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+.chat-own {
+  justify-content: flex-end;
+}
+
+.chat-own .incoming_content {
+  background-color: var(--yellow);
+  border-top-right-radius: 0;
+  border-top-left-radius: 14px;
+  margin: 0 0 0 6px;
+}
+.chat-own .chat-incoming {
+  flex-direction: row-reverse;
+}
+
+.chat-msg_form {
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+}
+
+.chat-msg_imgplus {
+  width: 30px;
+  height: 24px;
+  border: 2px solid #cdcdcd;
+  font-size: 26px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 8px;
+}
+
+.chat-msg_imgplus p {
+  color: #cdcdcd;
+}
+.chat-msg_form input {
+  width: 100%;
+  height: 30px;
+  margin-left: 16px;
+  border-radius: 20px;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.chat-msg_form > i {
+  font-size: 26px;
+  position: absolute;
+  right: 68px;
+  color: #bbb;
+}
+
+.chat-msg_form button {
+  position: absolute;
+  right: 32px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  border: none;
+}

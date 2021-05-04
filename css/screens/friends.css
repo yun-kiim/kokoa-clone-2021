@@ -28,3 +28,27 @@
   color: #999;
   margin-bottom: 30px;
 }
+
+@keyframes splashHidden {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: splashHidden 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}

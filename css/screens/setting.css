@@ -1,0 +1,43 @@
+.setting_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.setting_content_title {
+  display: flex;
+  align-items: center;
+}
+.setting_content_title i {
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+}
+.setting_content_title span {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.setting_content_sub {
+  color: var(--gray);
+  align-items: center;
+}
+
+.setting_content:nth-child(4) {
+  margin-bottom: 36px;
+}
+
+.noti_new {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 12px;
+  background-color: tomato;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

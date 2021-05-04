@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>More</title>
+  </head>
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-1x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header_column">
+        <a href="chats.html"> <i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header_column"><h1>Yoon</h1></div>
+      <div class="alt-header_column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="chat-message">
+        <div class="chat-user_img">
+          <img
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+            alt="kokoauser"
+          />
+        </div>
+
+        <div class="chat-message_content">
+          <span class="chat-user">yoon</span>
+          <div class="chat-incoming">
+            <span class="incoming_content">Hi!</span>
+            <span class="incoming_time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-message chat-own">
+        <div class="chat-message_content">
+          <div class="chat-incoming">
+            <span class="incoming_content">Hi!</span>
+            <span class="incoming_time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="chat-msg_form">
+      <div class="chat-msg_imgplus">
+        <p>+</p>
+      </div>
+      <input type="text" placeholder="Write a message..." />
+      <i class="far fa-smile-wink"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/720e729bba.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
